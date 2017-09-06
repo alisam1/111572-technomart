@@ -7,160 +7,180 @@
     <title>HTML Academy: Техномарт</title>
   </head>
    <body>
+   <div class="main__container ">
     <header class="header">
-      <div class="header__logo">
-        <div class = "logo">Техномарт</div>
+      <div class="header__content">
+        <div class="header__logo">
+          <div class = "logo">Техномарт</div>
+        </div>
+        <div class = "header__search">
+          <form action="" class="search">
+            <div class="search__img "></div>
+            <div class="search__text">Поиск:</div>
+          </form>
+        </div>
+        <div class = "header__bookmarklet">
+          <div class="bookmarkleth__img "></div>
+          <div class="bookmarkleth__text">Закладки: 0</div>
+          <div class="bookmarkleth__count "></div>
+        </div>
+        <div class = "header__cart">
+          <div class="cart__img "></div>
+          <div class="cart__text">Корзина: 0</div>
+          <div class="cart__count "></div>
+        </div>
+        <button class="header__order">Оформить заказ</button>
       </div>
-      <div class = "header__search">
-        <form action="" class="search">
-          <div class="search__img "></div>
-          <div class="search__text">Поиск:</div>
-        </form>
-      </div>
-      <div class = "header__bookmarklet">
-        <div class="bookmarkleth__img "></div>
-        <div class="bookmarkleth__text">Закладки: 0</div>
-        <div class="bookmarkleth__count "></div>
-      </div>
-      <div class = "header__cart">
-        <div class="cart__img "></div>
-        <div class="cart__text">Корзина: 0</div>
-        <div class="cart__count "></div>
-      </div>
-      <button class="header__order">Оформить заказ</button>
     </header>
 
     <main class = "container">
 
       <section class = "company">
-        <div class = "company__information">
-          <p class="information">Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</p>
-        </div>
-        <div class = "company__contacts">
-          <div class = "phone">
-            <img class="phone__icon">
-            <button class ="phone__button">+7 (812) 555-05-55</button>
-          </div>
-          <div class = "address">
-            <address class="address__current">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-          </div>
-          <div class="company__auth">
-            <div class="login">
-              <button class="login__button login__button_enter">Войти
-              </button>
+        <div class="company__content">
+          <div class="about__company">
+            <div class = "company__information">
+              <p class="information">Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</p>
             </div>
-            <div class="reg">
-              <button class="reg__button reg__button_enter">Регистрация</button>
+            <div class = "company__contacts">
+              <div class = "phone">
+                <img class="phone__icon">
+                <button class ="phone__button">+7 (812) 555-05-55</button>
+              </div>
+              <div class = "address">
+                <address class="address__current">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+              </div>
             </div>
+              <div class="company__auth">
+                <div class="login">
+                  <button class="login__button login__button_enter">
+                    <div class="login__button__img"></div>
+                    <div class="login__button__text">Войти</div>
+                  </button>
+                </div>
+                <div class="reg">
+                  <button class="reg__button reg__button_enter">Регистрация</button>
+                </div>
+              </div>
           </div>
+          <nav class = "main__navigation">
+            <ul class = "nav">
+              <li class = "nav__item nav__item_active"><a href = "#">Главная</a></li>
+              <li class = "nav__item"><a href = "#">Компания</a></li>
+              <li class = "nav__item"><a href = "#">Каталог</a></li>
+              <li class = "nav__item"><a href = "#">Новости</a></li>
+              <li class = "nav__item"><a href = "#">Спецпредложения</a></li>
+              <li class = "nav__item"><a href = "#">Доставка</a></li>
+              <li class = "nav__item"><a href = "#">Контакты</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class = "main__navigation">
-          <ul class = "nav">
-            <li class = "nav__item nav__item_active"><a href = "#">Главная</a></li>
-            <li class = "nav__item"><a href = "#">Компания</a></li>
-            <li class = "nav__item"><a href = "#">Каталог</a></li>
-            <li class = "nav__item"><a href = "#">Новости</a></li>
-            <li class = "nav__item"><a href = "#">Спецпредложения</a></li>
-            <li class = "nav__item"><a href = "#">Доставка</a></li>
-            <li class = "nav__item"><a href = "#">Контакты</a></li>
-          </ul>
-        </nav>
       </section>
 
      <section class = "shop">
        <div class = "shop__categories">
          <ul class = "categories">
            <li class="categories__item categories__item_material">
-             <img class="categories__img" src="http://placehold.it/150x100" alt="image">
-             <button class = "categories__button">Материалы</button>
+             <h4 class="categories__title">Материалы</h4>
+             <img class="categories__img">
+             <button class = "categories__button">На любой вкус</button>
            </li>
            <li class="categories__item categories__item_tools">
-             <img class="categories__img" src="http://placehold.it/150x100" alt="image">
-             <button class = "categories__button">Инструменты</button>
+             <h4 class="categories__title">Инструменты</h4>
+             <img class="categories__img">
+             <button class = "categories__button">На все случаи</button>
            </li>
            <li class="categories__item categories__item_technic">
-             <img class="categories__img" src="http://placehold.it/150x100" alt="image">
-             <button class = "categories__button">Техника</button>
+              <h4 class="categories__title">Техника</h4>
+              <img class="categories__img">
+             <button class = "categories__button">Для стройки</button>
            </li>
          </ul>
         </div>
-        <div class="shop__slider">
-          <ul class="slider">
-            <li class="slider__item">
-              <h4 class="slider__title"></h4>
-              <p class="slider__desc"></p>
-              <img class="slider__img" src="" alt="">
-              <a href="" class="slider__link">Открыть каталог</a>
-            </li>
-          </ul>
+        <div class="slider__blok ">
+          <div class="shop__slider">
+            <ul class="slider">
+              <li class="slider__item">
+                <h4 class="slider__title"></h4>
+                <p class="slider__desc"></p>
+                <img class="slider__img" src="" alt="">
+                <a href="" class="slider__link">Открыть каталог</a>
+              </li>
+            </ul>
+          </div>
+          <div class = "shop_benefits">
+            <ul class = "benefits">
+              <li class="benefits__item benefits__item_sale">
+                <h4 class="benefits__title">Скидки 50%</h4>
+                <img class="benefits__img">
+                <button class = "benefits__button">На 350 товаров</button>
+              </li>
+              <li class="coupon">
+                <h4 class="coupon__title">Доставка</h4>
+                <img class="coupon__img">
+                <button class="coupon__button">Бесплатно</button>
+            </ul>
+           </div>
         </div>
-        <div class = "shop_benefits">
-          <ul class = "benefits">
-            <li class="benefits__item benefits__item_sale">
-              <img class="benefits__img" src="http://placehold.it/150x100" alt="image">
-              <a href="" class = "benefits__button">Доставка</a>
-            </li>
-            <li class="coupon">
-              <h3 class="coupon__name">Скидки 50%</h3>
-              <img src="" alt="" class="coupon__img">
-              <a href="" class="coupon__link">На 350 товаров</a>
-            <li class="benefits__item benefits__item_delivery">
-              <img class="benefits__img" src="http://placehold.it/150x100" alt="image">
-              <a href="" class = "benefits__button">Скидки 50%</a>
-            </li>
-          </ul>
-         </div>
      </section>
 
      <section class = "servicies">
         <div class="hit">
-          <h2 class = "hit__title">Популярные  товары</h2>
+          <h2 class = "hit__title">Популярные  товары:</h2>
           <button class = "hit__button">Все популярные товары</button>
-          <ul class="hit__list">
-            <li class="hit__list-item">
-              <img class="hit__list-img" src="http://placehold.it/150x100" alt="image">
-              <h5 class="hit__list-title">Перфоратор BOSCH BFG 9000</h5>
-              <p class="hit__list-p">32500 Р.</p>
-              <a href="" class = "hit__list-button">25500 Р.</a>
-            </li>
-            <li class="hit__list-item">
-              <img class="hit__list-img" src="http://placehold.it/150x100" alt="image">
-              <h5 class="hit__list-title">Перфоратор BOSCH BFG 3000</h5>
-              <p class="hit__list-p">22500 Р.</p>
-              <a href="" class = "hit__list-button">15500 Р.</a>
-            </li>
-            <li class="hit__list-item">
-              <img class="hit__list-img" src="http://placehold.it/150x100" alt="image">
-              <h5 class="hit__list-title">Перфоратор BOSCH BFG 6000</h5>
-              <p class="hit__list-p">30500 Р.</p>
-              <a href="" class = "hit__list-button">25500 Р.</a>
-            </li>
-            <li class="hit__list-item">
-              <img class="hit__list-img" src="http://placehold.it/150x100" alt="image">
-              <h5 class="hit__list-title">Перфоратор BOSCH BFG 2000</h5>
-              <p class="hit__list-p"></p>
-              <a href="" class = "hit__list-button">12500 Р.</a>
-            </li>
-          </ul>
         </div>
+          <div class="catalog-items">
+        <div class="catalog-item">
+          <div class="actions">
+            <a href="#" class="buy">Купить</a>
+            <a href="#" class="bookmark">В закладки</a>
+          </div>
+          <div class="image"><img width="184" height="164" src="img/hit_1.png"></div>
+          <div class="title">Перфоратор BOSCH BFG 3000</div>
+          <div class="discount">22 500 Р.</div>
+          <div class="price">15 500 Р.</div>
+        </div>
+        <div class="catalog-item">
+          <div class="actions">
+            <a href="#" class="buy">Купить</a>
+            <a href="#" class="bookmark">В закладки</a>
+          </div>
+          <div class="image"><img width="184" height="164" src="img/hit_1.png"></div>
+          <div class="title">Перфоратор BOSCH BFG 3000</div>
+          <div class="discount">22 500 Р.</div>
+          <div class="price">15 500 Р.</div>
+        </div>
+        <div class="catalog-item">
+          <div class="actions">
+            <a href="#" class="buy">Купить</a>
+            <a href="#" class="bookmark">В закладки</a>
+          </div>
+          <div class="image"><img width="184" height="164" src="img/hit_1.png"></div>
+          <div class="title">Перфоратор BOSCH BFG 3000</div>
+          <div class="discount">22 500 Р.</div>
+          <div class="price">15 500 Р.</div>
+        </div>
+        <div class="catalog-item">
+          <div class="flag flag-new">новинка</div>
+          <div class="actions">
+            <a href="#" class="buy">Купить</a>
+            <a href="#" class="bookmark">В закладки</a>
+          </div>
+          <div class="image"><img width="184" height="164" src="img/hit_1.png"></div>
+          <div class="title">Перфоратор BOSCH BFG 3000</div>
+          <div class="discount"></div>
+          <div class="price">15 500 Р.</div>
+        </div>
+      </div>
      </section>
 
      <section class = "contacts">
        <div class="makers">
          <h2 class = "makers__title">Популярные  производители</h2>
           <button class = "makers__button">Все производители</button>
+        </div>
           <ul class="makers__list">
             <li class="makers__list-item">
-              <img class="makers__list-img" src="http://placehold.it/150x100" alt="image">
-            </li>
-            <li class="makers__list-item">
-              <img class="makers__list-img" src="http://placehold.it/150x100" alt="image">
-            </li>
-            <li class="makers__list-item">
-              <img class="makers__list-img" src="http://placehold.it/150x100" alt="image">
-            </li>
-            <li class="makers__list-item">
-              <img class="makers__list-img" src="http://placehold.it/150x100" alt="image">
+              <img class="makers__list-img"><img src="img/bosch.png" alt="image">
             </li>
             <li class="makers__list-item">
               <img class="makers__list-img" src="http://placehold.it/150x100" alt="image">
@@ -184,7 +204,6 @@
               <img class="makers__list-img" src="http://placehold.it/150x100" alt="image">
             </li>
           </ul>
-       </div>
      </section>
 
       <section class = "operations">
@@ -267,5 +286,6 @@
     <p class="footer__bottom-social-p footer__bottom-social_css">Разработано — htmlacademy.ru</p>
   </div>
 </footer>
+</div>
 </body>
 </html>
