@@ -3,52 +3,54 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="http://allfont.ru/allfont.css?fonts=cuprum" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i" rel="stylesheet">
     <title>HTML Academy: Техномарт</title>
   </head>
    <body>
    <div class="main__container ">
+
     <header class="header">
-      <div class="header__content">
-        <div class="header__logo">
+      <div class="header__content inner">
+        <div class="header-logo">
           <div class = "logo">Техномарт</div>
         </div>
-        <div class = "header__search">
+        <div class = "search">
           <form action="" class="search">
             <div class="search__img "></div>
             <div class="search__text">Поиск:</div>
           </form>
         </div>
-        <div class = "header__bookmarklet">
-          <div class="bookmarkleth__img "></div>
-          <div class="bookmarkleth__text">Закладки: 0</div>
-          <div class="bookmarkleth__count "></div>
+
+        <div class="blok-element">
+          <div class="menu-element">
+            <img src="" alt="" class="menu-element__img-bookmarklet">
+            <div class="menu-element__text">Закладки:<span>0</span></div>
+          </div>
+
+          <div class="menu-element">
+            <img src="" alt="" class="menu-element__img-basket">
+            <div class="menu-element__text">Корзина:<span>0</span></div>
+          </div>
         </div>
-        <div class = "header__cart">
-          <div class="cart__img "></div>
-          <div class="cart__text">Корзина: 0</div>
-          <div class="cart__count "></div>
-        </div>
-        <button class="header__order">Оформить заказ</button>
+
+        <a class="order">Оформить заказ</a>
       </div>
     </header>
 
     <main class = "container">
 
       <section class = "company">
-        <div class="company__content">
-          <div class="about__company">
-            <div class = "company__information">
-              <p class="information">Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</p>
+        <div class="company__content inner">
+          <div class="company__info">
+            <div class = "company__description">
+              <p class="description">Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</p>
             </div>
             <div class = "company__contacts">
               <div class = "phone">
                 <img class="phone__icon">
-                <button class ="phone__button">+7 (812) 555-05-55</button>
+                <a class ="phone__number">+7 (812) 555-05-55</a>
               </div>
-              <div class = "address">
-                <address class="address__current">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-              </div>
+                <address class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
             </div>
               <div class="company__auth">
                 <div class="login">
@@ -76,26 +78,27 @@
         </div>
       </section>
 
-     <section class = "shop">
-       <div class = "shop__categories">
-         <ul class = "categories">
-           <li class="categories__item categories__item_material">
-             <h4 class="categories__title">Материалы</h4>
-             <img class="categories__img">
-             <button class = "categories__button">На любой вкус</button>
+     <section class = "shop inner">
+       <div class = "categories">
+         <ul class = "shop-card-all">
+           <li class="shop-card-materials">
+             <h4 class="shop-card__title">Материалы</h4>
+             <img class="shop-card__img" src="img/icon-1.svg" alt="icon-1">
+             <a class = "shop-card__link">На любой вкус</a>
            </li>
-           <li class="categories__item categories__item_tools">
-             <h4 class="categories__title">Инструменты</h4>
-             <img class="categories__img">
-             <button class = "categories__button">На все случаи</button>
+           <li class="shop-card-tools">
+             <h4 class="shop-card__title">Инструменты</h4>
+             <img class="shop-card__img" src="img/icon-2.svg">
+             <a class = "shop-card__link">На все случаи</a>
            </li>
-           <li class="categories__item categories__item_technic">
-              <h4 class="categories__title">Техника</h4>
-              <img class="categories__img">
-             <button class = "categories__button">Для стройки</button>
+           <li class="shop-card-technic">
+             <h4 class="shop-card__title">Техника</h4>
+             <img class="shop-card__img" src="img/icon-3.svg">
+             <a class = "shop-card__link">Для стройки</a>
            </li>
          </ul>
-        </div>
+       </div>
+
         <div class="slider__blok ">
           <div class="slider">
         <input type="radio" id="btn-1" name="toggle" checked>
@@ -106,52 +109,52 @@
         </div>
         <div class="slider__arrow">
           <div class="slider__arrow-left">
-            <label for="btn-1"></label>
           </div>
           <div class="slider__arrow-right">
-            <label for="btn-2"></label>
           </div>
         </div>
         <div class="slides">
           <div class="slide">
-            <div class="slide-text">
-              <div class="slide-title">Перфораторы</div>
-              <p class="slide-p">Настоящие мужские игрушки.</p>
-              <a class="btn" href="#">Открыть каталог</a>
+            <div class="slide__text">
+              <div class="slide__title">Перфораторы</div>
+              <p class="slide__description">Настоящие мужские игрушки.</p>
+              <a class="slide__btn" href="#">Открыть каталог</a>
             </div>
           </div>
           <div class="slide">
-            <div class="slide-text">
-              <div class="slide-title">Дрели</div>
-              <p class="slide-p">Соседям на радость!</p>
-              <a class="btn" href="#">Узнать больше</a>
+            <div class="slide__text">
+              <div class="slide__title">Дрели</div>
+              <p class="slide__description">Соседям на радость!</p>
+              <a class="slide__btn" href="#">Узнать больше</a>
             </div>
           </div>
         </div>
       </div>
+
           <div class = "shop_benefits">
             <ul class = "benefits">
-              <li class="benefits__item benefits__item_sale">
-                <h4 class="benefits__title">Скидки 50%</h4>
-                <img class="benefits__img">
-                <button class = "benefits__button">На 350 товаров</button>
+              <li class="shop-card-benefits">
+                <h4 class="shop-card__title">Скидки 50%</h4>
+                <img class="shop-card__img" src="img/icon-4.svg">
+                <a class = "shop-card__link">На 350 товаров</a>
               </li>
-              <li class="coupon">
-                <h4 class="coupon__title">Доставка</h4>
-                <img class="coupon__img">
-                <button class="coupon__button">Бесплатно</button>
+              <li class="shop-card-coupon">
+                <h4 class="shop-card__title">Доставка</h4>
+                <img class="shop-card__img" src="img/icon-5.svg">
+                <a class = "shop-card__link">Бесплатно</a>
+              </li>
             </ul>
            </div>
         </div>
      </section>
 
-     <section class = "servicies">
-        <div class="hit">
-          <h2 class = "hit__title">Популярные  товары:</h2>
-          <button class = "hit__button">Все популярные товары</button>
+     <section class = "servicies inner">
+        <div class="section__field">
+          <h2 class = "section__title">Популярные  товары:</h2>
+          <a class = "section__button">Все популярные товары</a>
         </div>
-          <div class="catalog-items">
-        <div class="catalog-item">
+          <div class="catalog-items inner">
+          <div class="catalog-item">
           <div class="actions">
             <a href="#" class="buy">Купить</a>
             <a href="#" class="bookmark">В закладки</a>
@@ -195,10 +198,10 @@
       </div>
      </section>
 
-     <section class = "contacts">
-       <div class="makers">
-         <h2 class = "makers__title">Популярные  производители</h2>
-          <button class = "makers__button">Все производители</button>
+     <section class = "contacts inner">
+       <div class="section__field">
+         <h2 class = "section__title">Популярные  производители:</h2>
+         <a class = "section__button">Все производители</a>
         </div>
           <ul class="makers__list">
             <li class="makers__list-item">
@@ -229,10 +232,12 @@
      </section>
 
       <section class = "operations">
+        <div class="operations__content inner">
           <div class = "service">
             <h3 class = "service__title">Сервисы </h3>
-            <p class = "service__p">Хороший интернет-магазин отличается от плохого не только ценами! </br> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+            <p class = "service__description">Хороший интернет-магазин отличается от плохого не только ценами! </br> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
           </div>
+
           <div class = "delivery">
             <div class="section vertical">
               <ul class="tabs">
@@ -261,26 +266,27 @@
               </div>
             </div>
           </div>
+        </div>
       </section>
 
-      <section class = "office">
-            <div class="about__office">
-              <h2 class="about__office-title">Компания "Техномарт"</h2>
-              <p class="about__office__p">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
-              <p class="about__office__p">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
-              <ul class="about__office-ul">
-                <li class="about__office-li">Деловые линии</li>
-                <li class="about__office-li">Автотрейдинг</li>
-                <li class="about__office-li">ЖилДорЭкспедиция</li>
+      <section class = "office inner">
+            <div class="office__about">
+              <h2 class="office__title">Компания "Техномарт"</h2>
+              <p class="office__description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
+              <p class="office__description">Мы можем доставить ваш товар в самые отдаленные точки России! </br> Техномарт работает со многими транспортными компаниями: </p>
+              <ul class="office__ul">
+                <li class="office__li">Деловые линии</li>
+                <li class="office__li">Автотрейдинг</li>
+                <li class="office__li">ЖилДорЭкспедиция</li>
               </ul>
-              <button class="about__office-button">Подробнее о компании</button>
+              <button class="section__button section__button-office">Подробнее о компании</button>
             </div>
-            <div class="contacts__company">
-              <h2 class ="contacts__company-title">Контакты</h2>
-              <p class ="contacts__company-p">Вы можете забрать товар сами <br> заехав к нам в офис</p>
+            <div class="office__contact">
+              <h2 class ="contacts__title">Контакты</h2>
+              <p class ="contacts__description">Вы можете забрать товар сами <br> заехав к нам в офис</p>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043705067!2d30.320889251722715!3d59.93879418178727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1504798719243"
               width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-              <button class ="contacts__company-button">Заблудились? Напишите нам!</button>
+              <button class ="section__button section__button-contact">Заблудились? Напишите нам!</button>
             </div>
       </section>
      </main>
@@ -290,8 +296,7 @@
     <div class="footer__logo">
       <div class = "logo">Техномарт</div>
     </div>
-     <p class="footer__navigation-p">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-     <p class="footer__navigation-p">+7 (812) 555-05-55</p>
+     <p class="footer__navigation-p">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</br>+7 (812) 555-05-55</p>
      <ul class="menu__top">
        <li class="menu__li"><a href="#">Компания</a></li>
        <li class="menu__li"><a href="#">Новости</a></li>
@@ -307,20 +312,20 @@
      </ul>
   </nav>
    <div class="footer__bottom">
-     <div class="footer__bottom__container">
-    <p class="footer__bottom-social-p footer__bottom-social_copy">© 2010–2017 Компания «Техномарт» <br>Все права защищены.</p>
-    <ul class="footer__bottom-social">
-      <li class="footer__bottom-social-li footer__bottom-social-li_vk"><img src = "img/vk-icon.png" width = "41" height = "42"></li>
-      <li class="footer__bottom-social-li footer__bottom-social-li_fb"><img src = "img/fb-icon.png" width = "42" height = "42"></li>
-      <li class="footer__bottom-social-li footer__bottom-social-li_ig"><img src = "img/insta-icon.png" width = "42" height = "42"></li>
+     <div class="footer__container inner">
+    <p class="footer__address">© 2010–2017 Компания «Техномарт» <br>Все права защищены.</p>
+    <ul class="footer__bottom social">
+      <li class="social-li"><img src = "img/vk-icon.png" width = "41" height = "42"></li>
+      <li class="social-li"><img src = "img/fb-icon.png" width = "42" height = "42"></li>
+      <li class="social-li"><img src = "img/insta-icon.png" width = "42" height = "42"></li>
     </ul>
-    <p class="footer__bottom-social-p footer__bottom-social_email">Обратная связь: <br>mail@htmlacademy.ru</p>
-    <p class="footer__bottom-social-p footer__bottom-social_css">Разработано — <br>htmlacademy.ru</p>
+    <p class="footer__feedback">Обратная связь: </br><span>mail@htmlacademy.ru</span></p>
+    <p class="footer__dev">Разработано — </br><span>htmlacademy.ru</span</p>
    </div>
   </div>
 </footer>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
 </body>
 </html>
