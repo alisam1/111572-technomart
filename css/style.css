@@ -31,7 +31,6 @@ body{
   flex-direction: row;
   flex-grow: 1;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 47px;
   background: #293449;
@@ -41,13 +40,16 @@ body{
 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
 .header-logo
 {
   width: 220px;
-  height: 50px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-logo .logo
@@ -78,9 +80,7 @@ min-height: 47px;
   width: 90px;
   background: #293449;
   display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-grow: 3;
+  justify-content: center;
 }
 
 .search__img
@@ -91,7 +91,7 @@ min-height: 47px;
       background-image: url('../img/icon-search.svg');
       position:absolute;
       left:15px;
-      padding: 0;
+      margin-top: 10px;
 }
 
 .search__text
@@ -101,22 +101,22 @@ min-height: 47px;
   font-style: normal;
   padding-left: 50px;
   color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .blok-element
 {
   display: flex;
-  align-items: center;
-  flex-grow: 2;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-element
 {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  margin-left: 45px;
 }
 
 .menu-element__img-bookmarklet
@@ -126,9 +126,8 @@ min-height: 47px;
       background-color: #293449;
       background-image: url('../img/icon-bookmark.svg');
       position:absolute;
-      left:0px;
-      padding: 0;
-      flex-grow: 1;
+      margin-top: 15px;
+      margin-bottom: 15px;
 }
 
 .menu-element__img-basket
@@ -138,18 +137,22 @@ min-height: 47px;
       background-color: #293449;
       background-image: url('../img/icon-cart.svg');
       position:absolute;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-right: 10px;
       border: none;
-      left:2px;
-      padding: 0;
 }
 
 .menu-element__text
 {
+  width: 80px;
   font-family: 'Cuprum', sans-serif;
   font-size: 17px;
   font-style: normal;
+  padding-left: 30px;
   color: #fff;
-  right: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .menu-element__text span
@@ -173,6 +176,8 @@ min-height: 47px;
   line-height: 18px;
   font-style: normal;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .company
@@ -202,7 +207,7 @@ min-height: 47px;
   font-weight: 700px;
   color: #ee3643;
   padding-left: 55px;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
@@ -214,12 +219,12 @@ min-height: 47px;
 
 .phone
 {
-  width: 270px;
-  height: 42px;
+  height: 40px;
   margin-left: 20px;
   margin-top: 43px;
   border: 3px solid #fff;
   position: relative;
+  display: flex;
   justify-content: center;
 }
 
@@ -228,26 +233,24 @@ min-height: 47px;
   width: 19px;
   height: 19px;
   background-image: url('../img/icon-phone.svg');
-  position:absolute;
   margin-top: 10px;
-  margin-left: 15px;
   margin-bottom: 15px;
+  left: 10px;
+  position: absolute;
+  padding: 0;
 }
 
 .phone__number
 {
   display: flex;
   align-items: center;
-  justify-content: center;
   font-family: 'Cuprum', arial;
   font-size: 21px;
   font-style: normal;
   color: #ee3643;
-  padding-top: 5px;
-  padding-bottom: 10px;
   border: none;
   background-color: inherit;
-  margin-left: 15px;
+  margin-left:15px;
 }
 
 .address
@@ -258,6 +261,7 @@ min-height: 47px;
   color: #32425c;
   text-align: center;
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 .company__auth
@@ -328,7 +332,7 @@ min-height: 47px;
 
 .nav
 {
-  height: 100%;
+  height: 60px;
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -338,8 +342,28 @@ min-height: 47px;
 .nav__item
 {
   flex-grow: 1;
-
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
+
+.nav__item:first-child
+{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding-left: 23px;
+}
+
+.nav__item:last-child
+{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+
 
 .nav__item a
 {
@@ -353,14 +377,12 @@ min-height: 47px;
   font-style: normal;
   color: #ffffff;
   text-decoration: none;
+  padding: 0;
 }
 
 .categories
 {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 5px;
 }
 
@@ -372,8 +394,8 @@ min-height: 47px;
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
-  margin-top: 60px;
-  padding: 0;
+  margin-top: 65px;
+  margin-left: -40px;
 }
 
 
@@ -389,7 +411,7 @@ min-height: 47px;
 .shop-card-tools
 {
   width: 300px;
-  height: 120px;
+  height: 125px;
   background-color: #3bbce3;
   position: relative;
   margin-left: 10px;
@@ -399,7 +421,7 @@ min-height: 47px;
 .shop-card-technic
 {
   width: 300px;
-  height: 120px;
+  height: 125px;
   background-color: #dc91d8;
   position: relative;
   margin-left: 10px;
@@ -408,17 +430,17 @@ min-height: 47px;
 .shop-card-benefits
 {
   width: 300px;
-  height: 120px;
+  height: 125px;
   background-color: #8ed78f;
   position: relative;
   margin-left: -5px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .shop-card-coupon
 {
   width: 300px;
-  height: 120px;
+  height: 125px;
   background-color: #ffc047;
   position: relative;
   margin-left: -5px;
@@ -427,8 +449,8 @@ min-height: 47px;
 .shop-card__img
 {
   position:absolute;
-  left: 205px;
-  bottom: 25px;
+  left: 195px;
+  bottom: 30px;
 }
 
 .shop-card__title
@@ -450,13 +472,42 @@ min-height: 47px;
   font-size: 14px;
   font-style: normal;
   color: #fff;
+  background-color:rgba(0,0,0, 0.1);
+  border-radius: 3px;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom:15px;
+}
+
+.shop-card__link-technic
+{
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.shop-card__link-coupon
+{
+  border: none;
+  font-family: 'Cuprum', arial;
+  font-size: 14px;
+  font-style: normal;
+  color: #fff;
   background-size: 135px 40px;
   background-color:rgba(0,0,0, 0.1);
   border-radius: 3px;
   text-transform: uppercase;
   line-height: 40px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-top: 13px;
   padding-bottom: 13px;
   margin-left: 25px;
