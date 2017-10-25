@@ -782,7 +782,7 @@ min-height: 47px;
     background:url("../img/new_flag.png") no-repeat 0 0;
 }
 
-.catalog-item .actions{
+.catalog-item__actions{
     position:absolute;
     top:0;
     left:0;
@@ -793,8 +793,8 @@ min-height: 47px;
     z-index:10;
 }
 
-.catalog-item .actions .buy,
-.catalog-item .actions .bookmark{
+.catalog-item__actions .buy,
+.catalog-item__actions .bookmark{
     display:block;
     width:129px;
     margin:0 auto;
@@ -813,38 +813,38 @@ min-height: 47px;
     border-radius:3px;
 }
 
-.catalog-item .actions .bookmark{
+.catalog-item__actions .bookmark{
     color:#32425c;
     background:white;
     border-bottom-color:#63a63e;
 }
 
-.catalog-item .actions{
+.catalog-item__actions{
     display:none;
 }
 
-.catalog-item .actions{
+.catalog-item__actions{
     display:none;
 }
-.catalog-item:hover .actions{
+.catalog-item:hover .catalog-item__actions {
     display:block;
 }
 
-.catalog-item .image{
+.catalog-item__image{
     width:218px;
     height:168px;
 }
-.catalog-item .image img{
+.catalog-item__image img{
     max-width:100%;
 }
 
-.catalog-item .title{
+.catalog-item__title{
     min-height:40px;
     padding:0 25px;
     margin-top:10px;
     margin-bottom:15px;
 }
-.catalog-item .discount{
+.catalog-item__discount{
     min-height:20px;
     margin-top:15px;
     margin-bottom:10px;
@@ -852,7 +852,7 @@ min-height: 47px;
     text-decoration:line-through;
 }
 
-.catalog-item .price{
+.catalog-item__price{
     position:relative;
     width:80px;
     margin:10px auto;
@@ -863,7 +863,7 @@ min-height: 47px;
     border-radius:3px;
 }
 
-.catalog-item .price:after{
+.catalog-item__price:after{
     content:"";
     position:absolute;
     top:0;
