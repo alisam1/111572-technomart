@@ -15,11 +15,13 @@
         <div class="header-logo">
           <div class = "logo">Техномарт</div>
         </div>
+
+
         <div class = "search">
-          <form action="" class="search">
-            <div class="search__img "></div>
-            <div class="search__text">Поиск:</div>
-          </form>
+          <div class = "search__form">
+            <img src="" alt="" class="search__img">
+            <input type="search__text" id="search" placeholder="Поиск" />
+          </div>
         </div>
 
         <div class="blok-element">
@@ -28,7 +30,7 @@
             <div class="menu-element__text">Закладки:<span>0</span></div>
           </div>
 
-          <div class="menu-element">
+          <div class="menu-element menu-element-basket">
             <img src="" alt="" class="menu-element__img-basket">
             <div class="menu-element__text">Корзина:<span>0</span></div>
           </div>
@@ -157,7 +159,7 @@
           <div class="catalog-items inner">
           <div class="catalog-item">
           <div class="catalog-item__actions">
-            <a href="#" class="buy">Купить</a>
+            <div class="buy" href = "#"><img class="buy__img">Купить</div>
             <a href="#" class="bookmark">В закладки</a>
           </div>
           <div class="catalog-item__image"><img width="184" height="164" src="img/hit_1.png"></div>
@@ -167,7 +169,7 @@
         </div>
         <div class="catalog-item">
           <div class="catalog-item__actions">
-            <a href="#" class="buy">Купить</a>
+            <div class="buy" href = "#"><img class="buy__img">Купить</div>
             <a href="#" class="bookmark">В закладки</a>
           </div>
           <div class="catalog-item__image"><img width="184" height="164" src="img/hit_1.png"></div>
@@ -177,7 +179,7 @@
         </div>
         <div class="catalog-item">
           <div class="catalog-item__actions">
-            <a href="#" class="buy">Купить</a>
+            <div class="buy" href = "#"><img class="buy__img">Купить</div>
             <a href="#" class="bookmark">В закладки</a>
           </div>
           <div class="catalog-item__image"><img width="184" height="164" src="img/hit_1.png"></div>
@@ -188,7 +190,7 @@
         <div class="catalog-item">
           <div class="flag flag-new">новинка</div>
           <div class="catalog-item__actions">
-            <a href="#" class="buy">Купить</a>
+            <div class="buy" href = "#"><img class="buy__img">Купить</div>
             <a href="#" class="bookmark">В закладки</a>
           </div>
           <div class="catalog-item__image"><img width="184" height="164" src="img/hit_1.png"></div>
@@ -251,19 +253,19 @@
                   <h4 class="box__title">Доставка</h4>
                   <p  class="box__p">Мы с удовольствием доставим ваш товар прямо </br> к вашему подъезду совершенно бесплатно!</br>
                     Ведь мы неплохо заработаем, </br>поднимая его на ваш этаж!</p>
-                  <img class="box__img-delivery" src="img/car.png" width="468" height="261" alt="image">
+                  <img class="box__img-delivery" src="img/car_1.png" width="468" height="261" alt="image">
               </div>
               <div class="box">
                   <h4 class="box__title">Гарантия</h4>
                   <p  class="box__p">Если купленный у нас товар поломается или заискрит, </br> а также в случае пожара, спровоцированного его возгаранием, </br> вы всегда можете быть уверены в нашей гарантии. Мы обменяем </br>сгоревший товар на новый.</br>
                     Дом уж восстановите как-нибудь сами.</p>
-                    <img class="box__img-garant" src="img/garant.png" width="389" height="283" alt="image">
+                    <img class="box__img-garant" src="img/garant_1.png" width="389" height="283" alt="image">
               </div>
               <div class="box">
                   <h4 class="box__title">Кредит</h4>
                   <p class="box__p">Залезть в долговую яму стало проще! </br>Кредитные консультанты придут вам на помощь.</p>
                   <button class="box__button">Отправить заявку</button>
-                  <img class="box__img-credit" src="img/credit.png" width="465" height="285" alt="image">
+                  <img class="box__img-credit" src="img/credit_1.png" width="465" height="285" alt="image">
               </div>
             </div>
           </div>
@@ -316,12 +318,12 @@
      <div class="footer__container inner">
     <p class="footer__address">© 2010–2017 Компания «Техномарт» <br>Все права защищены.</p>
     <ul class="footer__bottom social">
-      <li class="social-li"><img src = "img/vk-icon.png" width = "41" height = "42"></li>
-      <li class="social-li"><img src = "img/fb-icon.png" width = "42" height = "42"></li>
-      <li class="social-li"><img src = "img/insta-icon.png" width = "42" height = "42"></li>
+      <li class="social-li"><img src = "img/vk-icon.png"></li>
+      <li class="social-li social-li-fb"><img src = "img/fb-icon.png"></li>
+      <li class="social-li social-li-insta"><img src = "img/insta-icon.png"></li>
     </ul>
-    <p class="footer__feedback">Обратная связь: </br><span>mail@htmlacademy.ru</span></p>
-    <p class="footer__dev">Разработано — </br><span>htmlacademy.ru</span</p>
+    <p class="footer__feedback">Обратная связь: </br><span><a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a></span></p>
+    <p class="footer__dev">Разработано — </br><span><a href="htmlacademy.ru">htmlacademy.ru</a></span</p>
    </div>
   </div>
 </footer>
