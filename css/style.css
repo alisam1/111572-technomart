@@ -188,6 +188,7 @@ display: flex;
       background-image: url('../img/icon-bookmark.png');
       position:absolute;
       left: 0px;
+      margin-top: 2px;
 }
 
 .menu-element:hover .menu-element__img-bookmarklet
@@ -199,6 +200,7 @@ display: flex;
       position:absolute;
       left: 0px;
       cursor: pointer;
+      margin-top: 2px;
 }
 
 .menu-element:active .menu-element__img-bookmarklet
@@ -209,6 +211,7 @@ display: flex;
   background-image: url('../img/icon_bookmark_active.png');
   position:absolute;
   left: 0px;
+  margin-top: 2px;
 }
 
 .menu-element__img-basket
@@ -220,6 +223,7 @@ display: flex;
       position:absolute;
       left: 0px;
       border: none;
+      margin-top: 2px;
 }
 
 .menu-element:hover .menu-element__img-basket
@@ -231,6 +235,8 @@ display: flex;
       position:absolute;
       left: 0px;
       cursor: pointer;
+      margin-top: 2px;
+
 }
 
 .menu-element:active .menu-element__img-basket
@@ -242,6 +248,8 @@ display: flex;
       position:absolute;
       margin-right: 0px;
       cursor: pointer;
+      margin-top: 2px;
+
 }
 
 .menu-element__text
