@@ -1026,16 +1026,33 @@ opacity: 0.0;
     z-index:10;
 }
 
-.catalog-item__actions .buy,
+.catalog-item__actions .buy
+{
+  display:block;
+  width:129px;
+  margin:0 auto;
+  margin-bottom:7px;
+  padding:7px 0;
+  padding-bottom: 4px;
+  background-color:#63a63e;
+  color:white;
+  font-size:14px;
+  font-weight:normal;
+  font-family:"Cuprum", sans-serif;
+  line-height:18px;
+  text-decoration:none;
+  text-transform:uppercase;
+  border-radius:3px;
+  box-shadow: 0 3px 0 0 rgba(54,115,21,0.9);
+}
+
 .catalog-item__actions .bookmark{
     display:block;
-    width:129px;
+    width:123px;
     margin:0 auto;
     margin-bottom:7px;
-    padding:7px 0;
-    border:3px solid #63a63e;
-    border-bottom-color:#367315;
-    background-color:#63a63e;
+    padding:5px 0;
+    border: 3px solid #63a63e;
     color:white;
     font-size:14px;
     font-weight:normal;
@@ -1071,14 +1088,12 @@ opacity: 0.0;
   background-image: url('../img/cart-icon-pointer.png');
   position: absolute;
   left: 55px;
-  border: none;
 }
 
 .catalog-item__actions:active .buy
 {
     background-color:#518534;
-    border-bottom-color:#518534;
-      border:3px solid #518534;
+    border-bottom:3px solid #518534;
 
 }
 
@@ -1198,6 +1213,7 @@ opacity: 0.0;
   margin-top: 27px;
   margin-bottom: 20px;
   border-radius: 3px;
+  padding-top: 1px;
 
 }
 
@@ -1349,8 +1365,8 @@ ul.tabs-list {
     line-height: 30px;
     background-color: #32425c;
     padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .vertical-tabs .tabs-list li:hover {
   width: 200px;
@@ -1366,8 +1382,8 @@ ul.tabs-list {
   line-height: 30px;
   background-color: #fff;
   padding-left: 25px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+padding-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
