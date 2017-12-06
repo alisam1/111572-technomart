@@ -1029,11 +1029,11 @@ opacity: 0.0;
 .catalog-item__actions .buy
 {
   display:block;
-  width:129px;
+  width:132px;
   margin:0 auto;
   margin-bottom:7px;
-  padding:10px 0;
-  padding-bottom: 7px;
+  padding:9px 0;
+  padding-bottom: 6px;
   background-color:#63a63e;
   color:white;
   font-size:14px;
@@ -1048,10 +1048,10 @@ opacity: 0.0;
 
 .catalog-item__actions .bookmark{
     display:block;
-    width:123px;
+    width:126px;
     margin:0 auto;
     margin-bottom:7px;
-    padding:7px 0;
+    padding:6px 0;
     border: 3px solid #63a63e;
     color:white;
     font-size:14px;
