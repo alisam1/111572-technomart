@@ -1217,10 +1217,32 @@ opacity: 0.0;
 
 }
 
+.section__button:hover
+{
+  background-color: #ca2c37;
+}
+
+.section__button:active
+{
+  background-color: #ba2732;
+}
+
 .section__button-makers
 {
     margin-top: 20px;
 }
+
+.section__button-makers:hover
+{
+  background-color: #ca2c37;
+}
+
+.section__button-makers:active
+{
+  background-color: #ba2732;
+}
+
+
 
 .makers
 {
