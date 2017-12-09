@@ -2817,3 +2817,36 @@ input[type="radio"]:checked + label span{
    {
      width: 100%;
    }
+
+
+   .box__title
+   {
+     font-family: 'Cuprum', arial;
+     font-size: 36px;
+     font-style: normal;
+     line-height: 24px;
+     font-weight: 400;
+     text-transform: uppercase;
+     color: #32425c;
+     margin-top: -5px;
+     margin-left: 75px;
+   }
+
+   .box__p
+   {
+     width: 400px;
+     font-family: 'PT Sans';
+     font-size: 13px;
+     font-style: normal;
+     line-height: 24px;
+     color: #000;
+     margin-top: -15px;
+     margin-left: 75px;
+   }
+
+   .box__img-delivery
+   {
+     margin-left: 243px;
+     margin-top: -150px;
+   }
+ }
