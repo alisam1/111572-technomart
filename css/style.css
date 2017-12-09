@@ -213,13 +213,8 @@ display: flex;
   position:absolute;
   left: 0px;
   margin-top: 2px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
-.menu-element__img-basket
-=======
-}
 
 .menu-element__img-basket
 {
@@ -233,31 +228,20 @@ display: flex;
       margin-top: 2px;
 }
 
-.menu-element:hover .menu-element__img-basket
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
-}
 
 .menu-element__img-basket
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 {
       width: 15px;
       height: 15px;
       background-color: #293449;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
       background-image: url('../img/cart-icon.png');
       position:absolute;
       left: 0px;
       border: none;
       margin-top: 2px;
-<<<<<<< HEAD
 }
 
-.menu-element:hover .menu-element__img-basket
-=======
+.menu-element:hover .menu-element__img-basket{
       background-image: url('../img/cart-icon-pointer.png');
       position:absolute;
       left: 0px;
@@ -266,41 +250,28 @@ display: flex;
 
 }
 
-.menu-element:active .menu-element__img-basket
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
+.menu-element:active .menu-element__img-basket{
+
+  background-image: url('../img/cart-icon-active.png');
+  position:absolute;
+  margin-right: 0px;
+
 }
 
+
 .menu-element:hover .menu-element__img-basket
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 {
       width: 15px;
       height: 15px;
       background-color: #293449;
-<<<<<<< HEAD
-<<<<<<< HEAD
       background-image: url('../img/cart-icon-pointer.png');
       position:absolute;
       left: 0px;
-=======
-      background-image: url('../img/cart-icon-active.png');
-      position:absolute;
-      margin-right: 0px;
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
-      background-image: url('../img/cart-icon-pointer.png');
-      position:absolute;
-      left: 0px;
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
       cursor: pointer;
       margin-top: 2px;
 
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .menu-element:active .menu-element__img-basket
 {
       width: 15px;
@@ -314,11 +285,6 @@ display: flex;
 
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .menu-element__text
 {
   width: 80px;
@@ -339,10 +305,7 @@ display: flex;
   padding-left: 30px;
   padding-bottom: 2px;
   color: #73777f;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+
 }
 
 .menu-element__text span
@@ -365,9 +328,6 @@ display: flex;
 
 .order
 {
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   display: flex;
   justify-content: center;
   align-items: center;
@@ -394,14 +354,6 @@ display: flex;
 
 .company
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  min-width: 1120px;
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
-  min-width: 1120px;
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   background-color: #f3f7f8;
 }
 
@@ -535,8 +487,6 @@ display: flex;
   cursor: pointer;
   background-image: url('../img/icon-login_active.png');
   outline: none;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 
@@ -559,7 +509,25 @@ display: flex;
   outline: none;
 }
 
-=======
+
+
+.login__button_enter:hover
+{
+  color: #ee3643;
+  cursor: pointer;
+  outline: none;
+}
+
+.login__button_enter:active
+{
+  outline: none;
+}
+
+.login__button_enter:active
+{
+  color: #73777f;
+  cursor: pointer;
+  outline: none;
 }
 
 
@@ -582,31 +550,6 @@ display: flex;
   outline: none;
 }
 
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
-}
-
-
-.login__button_enter:hover
-{
-  color: #ee3643;
-  cursor: pointer;
-  outline: none;
-}
-
-.login__button_enter:active
-{
-  outline: none;
-}
-
-.login__button_enter:active
-{
-  color: #73777f;
-  cursor: pointer;
-  outline: none;
-}
-
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .reg__button_enter
 {
   width: 150px;
@@ -619,7 +562,6 @@ display: flex;
   padding-top: 12px;
   padding-bottom: 11px;
 }
-<<<<<<< HEAD
 
 .reg__button_enter:hover
 {
@@ -637,7 +579,6 @@ display: flex;
   outline: none;
 }
 
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .reg__button_enter:active
 {
   color: #73777f;
@@ -873,7 +814,6 @@ display: flex;
 
 .shop-card__link-tools
 {
-=======
 
 }
 
@@ -1473,7 +1413,6 @@ opacity: 0.0;
     height:0;
     border:20px solid white;
     border-left-color:#ee3643;
-<<<<<<< HEAD
 }
 
 .section__field
@@ -1530,8 +1469,10 @@ opacity: 0.0;
 }
 
 .section__button:active
-=======
+{
+  background-color: #ca2c37;
 }
+
 
 .section__field
 {
@@ -1602,12 +1543,10 @@ opacity: 0.0;
 }
 
 .section__button-makers:active
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 {
   background-color: #ba2732;
 }
 
-<<<<<<< HEAD
 .section__button-makers
 {
     margin-top: 20px;
@@ -1623,17 +1562,6 @@ opacity: 0.0;
   background-color: #ba2732;
 }
 
-<<<<<<< HEAD
-
-
-=======
-
-
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
-
-
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .makers
 {
   display: flex;
@@ -1690,13 +1618,6 @@ opacity: 0.0;
 
 .operations
 {
-<<<<<<< HEAD
-=======
-  min-width: 1120px;
-<<<<<<< HEAD
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   background-color: #f4f8f9;
   margin-bottom: 5px;
   margin-top: 65px;
@@ -2006,13 +1927,6 @@ border-bottom: 6px solid #b52933;
 
 .footer__navigation
 {
-<<<<<<< HEAD
-=======
-  min-width: 1120px;
-<<<<<<< HEAD
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
-=======
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   height: 190px;
   background-color: #32425c;
 }
