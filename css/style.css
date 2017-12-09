@@ -213,8 +213,13 @@ display: flex;
   position:absolute;
   left: 0px;
   margin-top: 2px;
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
 
+.menu-element__img-basket
+=======
+}
 
 .menu-element__img-basket
 {
@@ -234,20 +239,25 @@ display: flex;
 }
 
 .menu-element__img-basket
-
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 {
       width: 15px;
       height: 15px;
       background-color: #293449;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
       background-image: url('../img/cart-icon.png');
       position:absolute;
       left: 0px;
       border: none;
       margin-top: 2px;
-
+<<<<<<< HEAD
 }
 
 .menu-element:hover .menu-element__img-basket
+=======
       background-image: url('../img/cart-icon-pointer.png');
       position:absolute;
       left: 0px;
@@ -256,21 +266,41 @@ display: flex;
 
 }
 
+.menu-element:active .menu-element__img-basket
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+=======
+}
+
 .menu-element:hover .menu-element__img-basket
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 {
       width: 15px;
       height: 15px;
       background-color: #293449;
+<<<<<<< HEAD
+<<<<<<< HEAD
       background-image: url('../img/cart-icon-pointer.png');
       position:absolute;
       left: 0px;
+=======
       background-image: url('../img/cart-icon-active.png');
       position:absolute;
       margin-right: 0px;
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+=======
+      background-image: url('../img/cart-icon-pointer.png');
+      position:absolute;
+      left: 0px;
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+      cursor: pointer;
       margin-top: 2px;
 
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .menu-element:active .menu-element__img-basket
 {
       width: 15px;
@@ -284,6 +314,11 @@ display: flex;
 
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+=======
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .menu-element__text
 {
   width: 80px;
@@ -304,14 +339,11 @@ display: flex;
   padding-left: 30px;
   padding-bottom: 2px;
   color: #73777f;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 }
-
-.menu-element__text span
-{
-  padding-left: 5px;
-}
-
-
 
 .menu-element__text span
 {
@@ -321,6 +353,21 @@ display: flex;
 
 .order
 {
+<<<<<<< HEAD
+=======
+}
+
+.menu-element__text span
+{
+  padding-left: 5px;
+}
+
+
+.order
+{
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+=======
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,6 +394,14 @@ display: flex;
 
 .company
 {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  min-width: 1120px;
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+=======
+  min-width: 1120px;
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   background-color: #f3f7f8;
 }
 
@@ -479,7 +534,9 @@ display: flex;
 {
   cursor: pointer;
   background-image: url('../img/icon-login_active.png');
-  outline: none; 
+  outline: none;
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 
@@ -502,24 +559,7 @@ display: flex;
   outline: none;
 }
 
-
-.login__button_enter:hover
-{
-  color: #ee3643;
-  cursor: pointer;
-  outline: none;
-}
-
-.login__button_enter:active
-{
-  outline: none;
-}
-
-.login__button_enter:active
-{
-  color: #73777f;
-  cursor: pointer;
-  outline: none;
+=======
 }
 
 
@@ -542,6 +582,31 @@ display: flex;
   outline: none;
 }
 
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
+=======
+}
+
+
+.login__button_enter:hover
+{
+  color: #ee3643;
+  cursor: pointer;
+  outline: none;
+}
+
+.login__button_enter:active
+{
+  outline: none;
+}
+
+.login__button_enter:active
+{
+  color: #73777f;
+  cursor: pointer;
+  outline: none;
+}
+
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .reg__button_enter
 {
   width: 150px;
@@ -554,15 +619,7 @@ display: flex;
   padding-top: 12px;
   padding-bottom: 11px;
 }
-
-
-.reg__button_enter:hover
-{
-  color: #ee3643;
-  cursor: pointer;
-  outline: none;
-}
-
+<<<<<<< HEAD
 
 .reg__button_enter:hover
 {
@@ -571,6 +628,16 @@ display: flex;
   outline: none;
 }
 
+=======
+
+.reg__button_enter:hover
+{
+  color: #ee3643;
+  cursor: pointer;
+  outline: none;
+}
+
+>>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
 .reg__button_enter:active
 {
   color: #73777f;
@@ -657,6 +724,7 @@ display: flex;
 .categories
 {
   display: flex;
+<<<<<<< HEAD
 
 }
 
