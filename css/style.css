@@ -104,6 +104,7 @@ display: flex;
   padding-top: 12px;
   padding-bottom: 11px;
   margin-right: 10px;
+  margin-left: 0px;
 }
 
 .search__img {
