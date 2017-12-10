@@ -1753,7 +1753,7 @@ padding-bottom: 15px;
   text-transform: uppercase;
   color: #32425c;
   margin-top: -5px;
-  margin-left: -5px;
+  margin-left: 75px;
 }
 
 .box__p
@@ -1765,12 +1765,12 @@ padding-bottom: 15px;
   line-height: 24px;
   color: #000;
   margin-top: -15px;
-  margin-left: -5px;
+  margin-left: 75px;
 }
 
 .box__img-delivery
 {
-  margin-left: 143px;
+  margin-left: 243px;
   margin-top: -150px;
 }
 
