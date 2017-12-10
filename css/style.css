@@ -313,13 +313,6 @@ display: flex;
   padding-left: 5px;
 }
 
-
-.order
-{
-<<<<<<< HEAD
-=======
-}
-
 .menu-element__text span
 {
   padding-left: 5px;
@@ -570,14 +563,6 @@ display: flex;
   outline: none;
 }
 
-=======
-
-.reg__button_enter:hover
-{
-  color: #ee3643;
-  cursor: pointer;
-  outline: none;
-}
 
 .reg__button_enter:active
 {
@@ -665,8 +650,6 @@ display: flex;
 .categories
 {
   display: flex;
-<<<<<<< HEAD
-
 }
 
 .shop-card-all
@@ -962,7 +945,6 @@ display: flex;
 
 .shop-card__link-tools
 {
->>>>>>> 160018f4923ec2f4a299263fcee16bd930968dba
   padding-left: 27px;
   padding-right: 27px;
   padding-top: 10px;
