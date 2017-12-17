@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
@@ -64,7 +65,7 @@
           </div>
           <nav class = "main__navigation">
             <ul class = "nav">
-              <li class = "nav__item nav__item_active"><a href = "#">Welcome</a></li>
+              <li class = "nav__item nav__item_active"><a href = "#">Главная</a></li>
               <li class = "nav__item"><a href = "#">Компания</a></li>
               <li class = "nav__item"><a href = "#">Каталог</a></li>
               <li class = "nav__item"><a href = "#">Новости</a></li>
@@ -284,7 +285,29 @@
               <p class ="contacts__description">Вы можете забрать товар сами <br> заехав к нам в офис</p>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043705067!2d30.320889251722715!3d59.93879418178727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1504798719243"
               width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-              <button class ="section__button section__button-contact">Заблудились? Напишите нам!</button>
+              <button class ="section__button section__button-contact"><a href="#openModal">Заблудились? Напишите нам!</a></button>
+              <div id="openModal" class="modalDialog">
+              	<div>
+              		<a href="#close" title="Закрыть" class="close">X</a>
+                  <form id="contact" action="" method="post">
+                    <div class="username_all">
+                      <fieldset class="username">
+                      <label>Ваше имя</label>
+                      <input placeholder="Представьтесь, пожалуйста" type="text" tabindex="1" required autofocus>
+                      </fieldset>
+                      <fieldset class="username">
+                      <label>Ваше имя</label>
+                      <input placeholder="Для отправки ответа" type="email" tabindex="2" required>
+                      </fieldset>
+                    </div>
+                      <fieldset class="username">
+                        <label>Текст письма</label>
+                      <textarea placeholder="В свободной форме" tabindex="5" required></textarea>
+                      </fieldset>
+                      <div class="modal__button"><button class ="section__button section__button-modal">Отправить</button></div>
+                </form>
+                </div>
+              </div>
             </div>
       </section>
      </main>
