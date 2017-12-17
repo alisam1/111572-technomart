@@ -1900,7 +1900,7 @@ padding-bottom: 15px;
 .close:hover { background: #6a7180; }
 
 
-fieldset.username
+fieldset.modal__fieldset
 {
   width: 220px;
   border: none;
