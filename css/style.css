@@ -1897,7 +1897,7 @@ padding-bottom: 15px;
 	box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover { background: #6a7180; }
 
 
 fieldset.username
@@ -1961,7 +1961,7 @@ fieldset.username
 #contact textarea {
   height:100px;
   max-width:100%;
-    resize:none;
+  resize:none;
 }
 
 #contact button[type="submit"] {
