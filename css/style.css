@@ -612,19 +612,19 @@ display: flex;
 }
 
 
-.nav__item:first-child
+.nav__item:first-child a
 {
   flex-grow: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding-left: 23px;
 }
 
-.nav__item:last-child
+.nav__item:last-child a
 {
   flex-grow: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-right: 25px;
 }
 
