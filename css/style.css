@@ -136,6 +136,7 @@ display: flex;
   font-style: normal;
   color: #fff;
   border: none;
+  padding-left: 40px;
   padding-top: 12px;
   padding-bottom: 11px;
   margin-right: 10px;
@@ -160,8 +161,8 @@ display: flex;
   padding-top: 12px;
   padding-bottom: 11px;
   float: left;
-  padding-left: 35px;
-    background-image: url('../img/icon-search_focus.png');
+  padding-left: 40px;
+  background-image: url('../img/icon-search_focus.png');
   background-repeat: no-repeat;
   background-position: 10px;
 }
