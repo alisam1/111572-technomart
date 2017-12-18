@@ -1758,13 +1758,13 @@ padding-bottom: 15px;
 
 .box__img-garant
 {
-  margin-left: 250px;
+  margin-left: 350px;
   margin-top: -205px;
 }
 
 .box__img-credit
 {
-  margin-left: 165px;
+  margin-left: 265px;
   margin-top: -170px;
 }
 
@@ -1780,6 +1780,7 @@ padding-bottom: 15px;
   color: #fff;
   text-transform: uppercase;
   margin-top: 15px;
+  margin-left: 100px;
 }
 
 .office
