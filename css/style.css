@@ -1670,7 +1670,7 @@ ul.tabs-list {
 }
 
 .vertical-tabs .tabs-list {
-    width: 160px;
+    width: 200px;
     float: left;
     margin: 0 0 0 -40px;
 }
@@ -1691,7 +1691,17 @@ ul.tabs-list {
 .vertical-tabs .tabs-list li:hover {
   width: 200px;
   padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
+.vertical-tabs .tabs-list li:active {
+  width: 200px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .vertical-tabs .tabs-list li.tabs-list__item-current {
   width: 200px;
   color: #32425c;
@@ -1703,7 +1713,7 @@ ul.tabs-list {
   background-color: #fff;
   padding-left: 25px;
   padding-top: 15px;
-padding-bottom: 15px;
+  padding-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
