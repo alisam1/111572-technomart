@@ -48,7 +48,6 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-logo
@@ -173,6 +172,7 @@ display: flex;
 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .menu-element
