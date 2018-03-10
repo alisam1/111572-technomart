@@ -1703,7 +1703,7 @@ opacity: 0.0;
 .box__img-credit
 {
   margin-left: 265px;
-  margin-top: -170px;
+  margin-top: -150px;
 }
 
 .box__button
@@ -1738,8 +1738,9 @@ input {
   background-color: #32425c;
   padding-left: 25px;
   padding-top: 12px;
-  padding-bottom: 17px;
-  border: 1px solid #D4D4D4;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #4d637b;
+   box-shadow: inset -15px 0 15px  -15px #000;
 }
 
 
@@ -1748,9 +1749,8 @@ input:checked + label {
   width: 220px;
   background: white;
   padding-left: 25px;
-  padding-top: 0px;
-  padding-bottom: 17px;
-  border-bottom: 1px solid #EFEFEF;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 #tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
   display: block;
