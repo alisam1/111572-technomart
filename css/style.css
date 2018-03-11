@@ -1696,13 +1696,13 @@ opacity: 0.0;
 
 .box__img-garant
 {
-  margin-left: 300px;
+  margin-left: 265px;
   margin-top: -205px;
 }
 
 .box__img-credit
 {
-  margin-left: 215px;
+  margin-left: 265px;
   margin-top: -150px;
 }
 
@@ -1877,12 +1877,12 @@ input:checked + label {
 	right: -12px;
 	text-align: center;
 	top: -10px;
-	width: 2%px;
+	width: 20px;
 	text-decoration: none;
 	font-weight: normal;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: 20px;
 	-moz-box-shadow: 1px 1px 3px #000;
 	-webkit-box-shadow: 1px 1px 3px #000;
 	box-shadow: 1px 1px 3px #000;
