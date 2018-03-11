@@ -78,6 +78,7 @@ body{
 .search
 {
 display: flex;
+margin-left: -20px;
 }
 
 .search__form input#search
@@ -370,7 +371,7 @@ display: flex;
   font-size: 16px;
   font-style: italic;
   line-height: 23px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #ee3643;
   padding-left: 55px;
   padding-top: 45px;
@@ -752,7 +753,7 @@ display: flex;
   height: 10px;
   font-family: 'Cuprum', arial;
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
   color: #fff;
   margin-left: 22px;
   margin-top: 22px;
@@ -900,7 +901,7 @@ display: flex;
   height: 10px;
   font-family: 'Cuprum', arial;
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
   color: #fff;
   margin-left: 22px;
   margin-top: 22px;
@@ -1209,13 +1210,13 @@ opacity: 0.0;
 }
 
 .catalog-item:first-child{
-    margin-right:22;
+    margin-right:22px;
 }
 .catalog-item:nth-child(2n){
-    margin-right:20;
+    margin-right:20px;
 }
 .catalog-item:nth-child(3n){
-    margin-right:20;
+    margin-right:20px;
 }
 
 .catalog-item:nth-child(4n)
@@ -1723,7 +1724,7 @@ opacity: 0.0;
 p {
   margin: 0;
 }
-input {
+.tabs input {
   display: none;
 }
 
@@ -1733,7 +1734,7 @@ input {
   color: #fff;
   font-family: 'Cuprum', arial;
   font-size: 21px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 30px;
   background-color: #32425c;
   padding-left: 25px;
@@ -1744,7 +1745,7 @@ input {
 }
 
 
-input:checked + label {
+.tabs input:checked + label {
   color: #555;
   width: 220px;
   background: white;
@@ -1906,7 +1907,7 @@ fieldset.modal__fieldset
   margin-bottom: 30px;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"] {
+#contact input {
   font-family: 'PT Sans', arial;
   font-size: 12px;
   color: #000;
@@ -1977,8 +1978,8 @@ fieldset.modal__fieldset
 #contact button[type="submit"]:hover {
   background: #ffea00;
   color: #000;
-  -webkit-transition:background 0.3s ease-in-out;
-  -moz-transition:background 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
   transition:background-color 0.3s ease-in-out;
 }
 
@@ -2688,10 +2689,10 @@ input[type="radio"]:checked + label span{
 }
 
 .catalog-item-main:first-child{
-    margin-right:22;
+    margin-right:22px;
 }
 .catalog-item-main:nth-child(2n){
-    margin-right:20;
+    margin-right:20px;
 }
 .catalog-item-main:nth-child(3n){
     margin-right:0;
