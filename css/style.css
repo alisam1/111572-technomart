@@ -1697,14 +1697,14 @@ opacity: 0.0;
 
 .box__img-garant
 {
-  margin-left: 265px;
-  margin-top: -205px;
+  margin-left: 295px;
+  margin-top: -185px;
 }
 
 .box__img-credit
 {
-  margin-left: 265px;
-  margin-top: -150px;
+  margin-left: 215px;
+  margin-top: -170px;
 }
 
 .box__button
@@ -1718,8 +1718,8 @@ opacity: 0.0;
   font-style: normal;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 15px;
-  margin-left: 100px;
+  margin-top: 25px;
+  margin-left: 55px;
 }
 p {
   margin: 0;
