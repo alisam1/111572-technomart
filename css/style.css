@@ -2297,7 +2297,6 @@ border-bottom: 6px solid #b52933;
 
 .catalog__title
 {
-  height: 60px;
   background-color: #f2f6f8;
   font-family: 'Cuprum', arial;
   font-size: 30px;
@@ -2305,7 +2304,9 @@ border-bottom: 6px solid #b52933;
   text-transform: uppercase;
   color: #32425c;
   padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 30px;
+  margin-bottom: 20px;
 
 }
 
@@ -2345,15 +2346,18 @@ border-bottom: 6px solid #b52933;
   font-family: 'PT Sans', arial;
   font-size: 13px;
   line-height: 18px;
+  padding-left: 20px;
   text-transform: uppercase;
   color: #000;
+  padding-top: 5px;
 }
 
 .filtres__catalog__list
 {
   display: inline-flex;
   list-style-type: none;
-
+  height: 0;
+  padding-bottom: 14px;
 }
 
 .filter__option a
@@ -2405,7 +2409,8 @@ border-bottom: 6px solid #b52933;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
-  padding-top: 15px;
+  padding-top: 12px;
+  padding-bottom: 15px;
   padding-left: 18px;
   margin-top: 34px;
   margin-left: -15px;
@@ -2807,6 +2812,7 @@ input[type="radio"]:checked + label span{
   display: inline-flex;
   list-style-type: none;
   margin-left: -40px;
+  margin-bottom: 60px;
 }
 
 .pagination__list-item
@@ -2886,11 +2892,15 @@ input[type="radio"]:checked + label span{
   text-decoration: none;
 }
 
+.instruments
+{
+  width: 100%;
+  background-color: #f2f6f8;
+}
+
 .about_instruments
 {
-  width: 1200px;
-  height: 260px;
-  background-color: #f2f6f8;
+  margin-bottom: 70px;
 }
 
 .about_instruments h2
@@ -2901,7 +2911,6 @@ input[type="radio"]:checked + label span{
   color: #000;
   font-weight: normal;
   text-transform: uppercase;
-  margin-left: 120px;
   padding-top: 62px;
 }
 
@@ -2913,15 +2922,15 @@ input[type="radio"]:checked + label span{
   color: #000;
   font-weight: normal;
   text-transform: uppercase;
-  margin-left: 120px;
 }
 
-.breadcrumbs
+.breadcrumbs__list
 {
-  margin-left: 80px;
   margin-top: 22px;
-  margin-bottom: 0px;
+  margin-bottom: 25px;
   list-style-type: none;
+  display: inline-flex;
+  margin-left: -50px;
 }
 
 .breadcrumbs__item a
