@@ -5,6 +5,10 @@
     <link href="http://allfont.ru/allfont.css?fonts=cuprum" rel="stylesheet" type="text/css" />
     <link href="http://allfont.ru/allfont.css?fonts=pt-sans" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinHTML5.css" />
     <title>HTML Academy: Техномарт</title>
   </head>
 
@@ -29,8 +33,8 @@
               <div class="menu-element__text"><i class="menu-element__img-bookmarklet"></i>Закладки:<span>0</span></div>
             </div>
 
-            <div class="menu-element menu-element-basket">
-              <div class="menu-element__text menu-element__text"><i class="menu-element__img-basket"></i>Корзина:<span>10</span></div>
+            <div class="menu-element menu-element-basket menu-element-basket--active">
+              <div class="menu-element__text menu-element__text--active"><i class="menu-element__img-basket menu-element__img-basket--active"></i>Корзина:<span>10</span></div>
             </div>
           </div>
 
@@ -52,12 +56,13 @@
                 </div>
                   <address class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
               </div>
-                <div class="company__auth">
-                  <div class="login">
-                    <button class="login__button login__button_enter"><i class="login__button__img"></i>Войти</button>
+                <div class="company__client">
+                  <div class="client">
+                    <p class="client__name"><a href = "#">Равшан Джамшутович</a></p>
                   </div>
-                  <div class="reg">
-                    <button class="reg__button reg__button_enter">Регистрация</button>
+                  <div class="client__reg">
+                    <div class ="client__choise"><a href = "#">Мои заказы</a></div>
+                    <div class ="client__lk"><a href = "#">Личный кабинет</a></div>
                   </div>
                 </div>
             </div>
@@ -98,17 +103,13 @@
                   <fieldset class="filtres__price">
                     <legend class="filtres__legend__price">Цена:</legend>
                       <div class="filtres__slider">
-                        <div id="slider">
-                          <div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider"></div>
+                        <div class="slider">
+                          <input type="text" id="range_21" tabindex="-1"/>
+                        </div>
                           <input class="price__from" type="text" id="minCost" value="0"/>
                           <input class="price__till" type="text" id="maxCost" value="30000"/>
                       </div>
-                      </div>
                   </fieldset>
-
-                    <label for="" class="checkbox">
-                      <input type="text" class="checkbox__control"><span class="checkbox__text"></span>
-                    </label>
 
                   <fieldset class="filtres__makers">
                      <legend class="filtres__legend-makers">Производители:</legend>
@@ -134,18 +135,14 @@
 
         <section class = "main__servicies">
           <div class="filtres__catalog">
-            <div class="filtres__legend-description">
-              <p class="filtres__legend-sort">Сортировка:</p>
-            </div>
-             <div class="filtres__catalog-items">
                <ul class="filtres__catalog__list">
+               <li class="filtres__catalog__list__item filter__sort">Сортировка:</li>
                <li class="filtres__catalog__list__item filter__option"><a href="">По цене</a></li>
                <li class="filtres__catalog__list__item filter__option"><a href="">По типу</a></li>
                <li class="filtres__catalog__list__item filter__option"><a href="">По функционалу</a></li>
+               <li class="filtres__catalog__button filtres__catalog__button-up"><a href="" aria-label="Сортировать по возрастанию"></a></li>
+               <li class="filtres__catalog__button filtres__catalog__button-down"><a href="" aria-label="Сортировать по убыванию"></a></li>
              </ul>
-             <button type = "submit" class="filtres__catalog__button filtres__catalog__button-up"></button>
-             <button type = "submit" class="filtres__catalog__button filtres__catalog__button-down"></button>
-             </div>
           </div>
              <div class="catalog-items-main">
            <div class="catalog-item-main">
@@ -302,8 +299,24 @@
       </div>
     </footer>
   </div>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script type="text/javascript" src="js/ui-slider.js"></script>
-  <script type="text/javascript" src="js/slider.js"></script>
+  <script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/ion.rangeSlider.js"></script>
+<script>
+
+$(function () {
+
+      $("#range_21").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 30000,
+        from: 1200,
+        to: 1800,
+        hide_min_max: true,
+        hide_from_to: true,
+        grid: false
+});
+
+  });
+</script>
   </body>
 </html>
