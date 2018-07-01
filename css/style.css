@@ -133,7 +133,7 @@ right: 30px;
   right: 230px;
 }
 
-.search__form:focus:after
+.search__form:focus-within::after
 {
   content: "";
   display: block;
