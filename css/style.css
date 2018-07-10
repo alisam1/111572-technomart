@@ -1236,6 +1236,21 @@ right: 8px;
 opacity: 0.0;
 }
 
+.catalog-item-main:hover
+{
+ border: 1px solid #ccc;
+ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.catalog-item-main:hover img
+{
+opacity: 0.0;
+}
+
+.catalog-item-main:hover .catalog-item__actions {
+    display:block;
+}
+
 .catalog-item:first-child{
     margin-right:22px;
 }
@@ -2518,7 +2533,7 @@ top: -3px;
     background-color: #fff;
     background-image: url('../img/icon-logout-hover.png');
     position: relative;
-    left: 230px;
+    left: 225px;
     bottom: 17px;
     border: none;
 }
