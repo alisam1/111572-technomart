@@ -1,3 +1,36 @@
+@font-face {
+font-family: "Cuprum";
+src: url("../fonts/cuprum/cuprum.ttf");
+}
+@font-face {
+font-family: "Cuprum-Bold";
+src: url("../fonts/cuprum/cuprumbold.ttf");
+}
+@font-face {
+font-family: "Cuprum-BoldItalic";
+  src: url("../fonts/cuprum/сuprumbolditalic.ttf");
+}
+@font-face {
+font-family: "Cuprum-Italic";
+  src: url("../fonts/cuprum/сuprumitalic.ttf");
+}
+@font-face {
+font-family: "PT Sans";
+  src: url("../fonts/PTSans/ptsans.ttf");
+}
+@font-face {
+font-family: "PT Sans-Bold";
+  src: url("../fonts/PTSans/ptsansbold.ttf");
+}
+@font-face {
+font-family: "PT Sans-BoldItalic";
+  src: url("../fonts/PTSans/ptsansbolditalic.ttf");
+}
+@font-face {
+font-family: "PT Sans-Italic";
+  src: url("../fonts/PTSans/ptsansitalic.ttf");
+}
+
 body{
   background-color: #fff;
   margin: 0;
