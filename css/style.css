@@ -1298,6 +1298,11 @@ opacity: 0.0;
     z-index:10;
 }
 
+.catalog-item__actions--catalog{
+    width:210px;
+}
+
+
 .catalog-item__actions .buy
 {
   display:block;
@@ -2482,6 +2487,12 @@ top: -3px;
   color: #000;
 }
 
+.client__name a:active
+{
+  text-decoration: none;
+  color: #cacaca;
+}
+
 .client__name::before
 {
     content: "";
@@ -2504,6 +2515,19 @@ top: -3px;
     height: 18px;
     background-color: #fff;
     background-image: url('../img/icon-user_hover.png');
+    position: relative;
+    right: 30px;
+    top:17px;
+    border: none;
+}
+.client__name:active:before
+{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background-color: #fff;
+    background-image: url('../img/icon-user.png');
     position: relative;
     right: 30px;
     top:17px;
@@ -2538,6 +2562,20 @@ top: -3px;
     border: none;
 }
 
+.client__name:active::after
+{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background-color: #fff;
+    background-image: url('../img/icon-logout.png');
+    position: relative;
+    left: 225px;
+    bottom: 17px;
+    border: none;
+}
+
 .client__reg
 {
   width: 300px;
@@ -2563,18 +2601,25 @@ top: -3px;
   color: #32425c;
 }
 
+.client__choise:hover
+{
+  border-bottom: 1px solid #ee3643;
+}
+
 .client__choise a:hover
 {
   color: #ee3643;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ee3643;
+  text-decoration: none;
+}
+
+.client__choise:active
+{
+  border-bottom: 1px solid #c5c5c5;
 }
 
 .client__choise a:active
 {
   color: #c5c5c5;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #c5c5c5;
 }
 
 .client__choise::after
@@ -2610,6 +2655,11 @@ top: -3px;
   color: #32425c;
 }
 
+.client__lk:hover
+{
+  border-bottom: 1px solid #ee3643;
+}
+
 .client__lk a:hover
 {
   color: #ee3643;
@@ -2617,11 +2667,14 @@ top: -3px;
   border-bottom: 1px solid #ee3643;
 }
 
+.client__lk:active
+{
+  border-bottom: 1px solid #c5c5c5;
+}
+
 .client__lk a:active
 {
   color: #c5c5c5;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #c5c5c5;
 }
 
 .main
@@ -2712,6 +2765,13 @@ top: -3px;
 }
 
 .filter__option a:hover
+{
+  color: #212a3a;
+  border-bottom: 2px solid #ee3643;
+  text-decoration: none;
+}
+
+.filter__option a:active
 {
   font-family: 'PT Sans', arial;
   font-size: 13px;
